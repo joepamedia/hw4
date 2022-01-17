@@ -4,16 +4,14 @@
   box-sizing: border-box;
 }
 
-.answers {
-  background-color: cadetblue;
-  border-radius: 15px;
-}
 body {
   font-size: 50px;
   font-family: "Abril Fatface", cursive;
   padding: 15px;
   text-align: center;
   color: gold;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 button {
@@ -35,10 +33,6 @@ input {
   font-size: 50px;
 }
 
-landing-style {
-  font-size: 70px;
-}
-
 /* styles by class */
 .bkg {
   background: rgb(0, 0, 0);
@@ -51,6 +45,14 @@ landing-style {
     rgba(24, 24, 24, 1) 82%,
     rgba(0, 0, 0, 1) 100%
   );
+}
+
+.landing {
+  font-size: 65px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 45px;
 }
 
 .hide {

@@ -134,7 +134,7 @@ function displayHighScores() {
   let highScores = JSON.parse(window.localStorage.getItem("quizScore")) || [];
   //update the display high scores elements
   highScores.forEach((score) => {
-    scoreTable.innerHTML += `<tr><td>${score.initials}-</td> <td>${score.score}</td></tr>`;
+    scoreTable.innerHTML += `<tr><td>${score.initials}:</td> <td>${score.score}</td></tr>`;
   });
 }
 
