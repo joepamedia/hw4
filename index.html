@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Chicago Sports Quiz</title>
+  </head>
+
+  <body class="bkg">
+    <section class="landing-style" id="landing">
+      <h1>
+        Welcome to the Chicago Sports Quiz! Do you think you can answer all the
+        questions corretly in 25 seconds? Have a go!
+      </h1>
+      <button id="start">Start Quiz</button>
+    </section>
+    <section id="quiz" class="hide">
+      <div id="timer">Timer</div>
+      <!-- Questions and Answers -->
+      <h2 id="question"></h2>
+      <div id="answers"></div>
+    </section>
+    <section id="scores" class="hide">
+      <h1>High Scores</h1>
+      <form id="score-form">
+        <input
+          id="score-initials"
+          type="text"
+          placeholder="Enter your initials here!"
+        />
+        <button>Save Score</button>
+      </form>
+      <button id="clear-scores">Clear High Scores</button>
+      <button id="play-again">Play Again?</button>
+      <div class="table" id="existing-scores">Existing Scores</div>
+      <table id="score-table" class="table"></table>
+    </section>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>

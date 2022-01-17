@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.answers {
+  background-color: cadetblue;
+  border-radius: 15px;
+}
+body {
+  font-size: 50px;
+  font-family: "Abril Fatface", cursive;
+  padding: 15px;
+  text-align: center;
+  color: gold;
+}
+
+button {
+  font-family: "Lato", sans-serif;
+  background-color: gold;
+  font-size: 50px;
+  border-radius: 15px;
+  padding: 10px 25px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+header {
+  font-size: 30px;
+  text-align: center;
+}
+
+input {
+  font-size: 50px;
+}
+
+landing-style {
+  font-size: 70px;
+}
+
+/* styles by class */
+.bkg {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(36, 35, 35, 1) 28%,
+    rgba(36, 35, 35, 1) 28%,
+    rgba(74, 74, 74, 1) 54%,
+    rgba(24, 24, 24, 1) 82%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.hide {
+  display: none;
+}
+
+.table {
+  margin-left: auto;
+  margin-right: auto;
+}
